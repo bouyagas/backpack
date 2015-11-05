@@ -22,6 +22,7 @@ body {
     color: white;
     font: 25, italic, sans-serif;
     text-align: center;
+    position: right;
 }
 
 .para{
