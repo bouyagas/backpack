@@ -8,8 +8,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'heroku'
+gem 'sdoc', '~> 1.0.0', group: :doc
+gem 'heroku', '>= 3.99.4'
 
 
 gem 'rails_12factor', group: :production
