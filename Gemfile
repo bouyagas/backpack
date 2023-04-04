@@ -1,27 +1,27 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.4'
+gem 'rails', '6.1.7.3'
 gem 'sqlite3'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'heroku'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
+gem 'uglifier', '>= 2.7.2'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'turbolinks', '>= 5.0.0'
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
+gem 'sdoc', '~> 1.0.0', group: :doc
+gem 'heroku', '>= 3.99.4'
 
 
 gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.0'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'better_errors'
+  gem 'web-console', '~> 2.2', '>= 2.2.1'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'factory_girl_rails'
   gem 'guard-rails'
