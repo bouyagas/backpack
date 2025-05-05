@@ -16,7 +16,7 @@ gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 
 group :development do
