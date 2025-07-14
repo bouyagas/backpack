@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.4'
+gem 'rails', '7.1.0'
 gem 'sqlite3'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.1.1'
+gem 'turbolinks', '>= 5.0.0'
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'heroku'
 
 
@@ -16,19 +16,19 @@ gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.0'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'better_errors'
+  gem 'web-console', '~> 3.0', '>= 3.0.0'
+  gem 'better_errors', '>= 2.2.0'
   gem 'binding_of_caller'
-  gem 'factory_girl_rails'
-  gem 'guard-rails'
-  gem 'guard-rspec'
+  gem 'factory_girl_rails', '>= 4.6.0'
+  gem 'guard-rails', '>= 0.7.3'
+  gem 'guard-rspec', '>= 4.6.5'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', '>= 1.2016.1', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
